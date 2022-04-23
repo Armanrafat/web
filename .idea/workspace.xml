@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ff3cef8-5661-45dd-81c9-f1f0a3bf16b8" name="Changes" comment="" />
+    <list default="true" id="b31b7624-9907-439c-a9af-95483c36fd07" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,44 +13,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="250R7BUay0G8Et50VNautUfMQbJ" />
+  <component name="ProjectId" id="286pPx6PecRf67EIdeoCIC4ebZh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AR7/Desktop/My web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0ff3cef8-5661-45dd-81c9-f1f0a3bf16b8" name="Changes" comment="" />
-      <created>1644661848794</created>
+      <changelist id="b31b7624-9907-439c-a9af-95483c36fd07" name="Changes" comment="" />
+      <created>1650546881234</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644661848794</updated>
-      <workItem from="1644661850231" duration="1406000" />
-      <workItem from="1646851885586" duration="4724000" />
-      <workItem from="1647028867385" duration="869000" />
-      <workItem from="1649349556730" duration="2047000" />
-      <workItem from="1649405297221" duration="58000" />
+      <updated>1650546881234</updated>
+      <workItem from="1650546884093" duration="223000" />
+      <workItem from="1650661906825" duration="104000" />
+      <workItem from="1650662055696" duration="44000" />
+      <workItem from="1650662566493" duration="5243000" />
     </task>
     <servers />
   </component>

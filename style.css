@@ -1,9 +1,20 @@
-h1{
-    color: red;
-    font-size: 50px;
+form{
+    margin-top: 29px;
+    margin-left: 15px;
 }
-img{
-    height: 457px;
-    width: 510px;
-    margin-left: 443px;
+input[type=text],input[type=email]{
+    border: red 2px solid;
+    margin-top: 11px;
+    font-size: 15px;
+    font-style: oblique;
+    background-color: azure;
+}
+input[type=radio]{
+    font-size: 15px;
+}
+select{
+    font-size: 15px;
+}
+input[type=submit]{
+    font-size: 15px;
 }
