@@ -1,20 +1,76 @@
-form{
-    margin-top: 29px;
-    margin-left: 15px;
+*{
+    background-color: lightgoldenrodyellow;
 }
-input[type=text],input[type=email]{
-    border: red 2px solid;
-    margin-top: 11px;
-    font-size: 15px;
-    font-style: oblique;
-    background-color: azure;
+.all{
+    margin: 30px 40px 30px 30px;
+    padding: 5px 5px 30px 7px;
 }
-input[type=radio]{
-    font-size: 15px;
+.div1{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: 40px 31px;
+    display: table;
 }
-select{
-    font-size: 15px;
+img{
+    width: 241px;
+    margin-bottom: -4px;
 }
-input[type=submit]{
-    font-size: 15px;
+.div2{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: -401px 332px;
+    height: 321px;
+    display: table;
 }
+.div3{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: 40px 633px;
+    height: 321px;
+    display: table;
+}
+.div4{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: -21px 31px;
+    height: 321px;
+    display: table;
+}
+.div5{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: -741px 934px;
+    height: 321px;
+    display: table;
+}
+.div6{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: 760px 331px 12px;
+    height: 321px;
+    display: table;
+}
+.div7{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: -373px 633px 12px;
+    height: 321px;
+    display: table;
+}
+.div8{
+    border: blueviolet 20px solid;
+    width: 241px;
+    margin: -373px 934px 12px;
+    height: 321px;
+    display: table;
+}
+h1{
+    margin-left: 615px;
+    margin-top: 63px;
+    margin-bottom: -30px;
+    display: table;
+}
+h1:hover{
+    color: red;
+}
+
