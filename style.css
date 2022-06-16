@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+/*-------------------------------------Menu-------------------------------------*/
 header {
     display: flex;
     justify-content: flex-end;
@@ -63,7 +64,7 @@ header {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-/* Mobile Nav */
+/*-------------------------------------Mobile-Menu-------------------------------------*/
 
 .menu {
     display: none;
@@ -112,7 +113,55 @@ header {
     color: #edf0f1;
     cursor: pointer;
 }
-
+/*-------------------------------------About-Us-------------------------------------*/
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 5%;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-family: "Times New Roman";
+    color: #ffffff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    font-family: "Times New Roman";
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h5:hover{
+    color: tomato;
+    transition: all 0.3s ease 0s;
+}
+.about-text p{
+    font-family: Arial;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px;
@@ -143,8 +192,394 @@ header {
 body{
     min-height: 100vh;
     width: 100%;
-    background: #EEECEB;
+    background-color: #12172b;
+    font-family: "Poppins", sans-serif;
 }
+/*-------------------------------------Intro-------------------------------------*/
+.intro{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.content1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content1 .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 12px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content1 h1{
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 150px;
+    letter-spacing: 2px;
+}
+@media screen and (max-width:1200px){
+    .content1{
+        width: 100%;
+    }
+    .content1 h1{
+        font-size: 4.5vm;
+    }
+    content1 .par{
+        width: 90%;
+        font-size: 1.5vm;
+    }
+
+}
+@media screen and (max-width: 830px){
+    .content1{
+        width: 80%;
+        margin-left: 60px;
+    }
+    .content1 h1{
+        font-size: 8vw;
+        padding-top: 111px;
+    }
+    .content1 .par{
+        width: 90%;
+        font-size: 3vw;
+    }
+    .about img{
+        height: 350px;
+        width: 300px;
+        margin-top: -850px;
+        margin-left: -60px;
+        position: absolute;
+
+    }
+
+    .main{
+        position: relative;
+        padding-left: 60px;
+        padding-top: 370px;
+    }
+    .about-text h2{
+        font-size: 33px;
+        padding-right: 20px;
+
+    }
+    .about-text h5{
+        font-size: 20px;
+    }
+    .about-text p{
+        font-size: 15px;
+        padding-right: 70px;
+    }
+}
+/*-------------------------------------Team-------------------------------------*/
+.container1{
+    margin: 120px 30px;
+    color: white;
+}
+.heading{
+    margin: -75px 85px;
+    padding-bottom: 120px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 40px;
+}
+.profile{
+    flex-basis: 260px;
+}
+.profile .profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(0);
+    cursor: pointer;
+    transition: 400ms;
+}
+.profile:hover .profile-img{
+    filter: grayscale(100%);
+}
+.user-name{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.profile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+.profile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+@media only screen and (max-width: 1150px){
+    .profiles{
+        flex-direction: column;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p{
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .heading{
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+    .heading span{
+        font-size: 15px;
+    }
+    .profiles{
+        margin: 20px 0;
+    }
+    .profile p{
+        margin: 20px 10px 80px 10px;
+    }
+}
+
+/*-------------------------------------Images-Gallery-------------------------------------*/
+.name h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -55px;
+    padding-bottom: 40px;
+}
+.wrapper{
+    margin: 100px auto;
+    max-width: 1100px;
+}
+.wrapper nav{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .items{
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    justify-content:  space-between;
+}
+.items span{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #007bff;
+    border-radius: 50px;
+    border: 2px solid #007bff;
+    transition: all 0.3s ease;
+}
+.items span.active,
+.items span:hover{
+    color: #fff;
+    background: #007bff;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.gallery .image{
+    width: calc(100% / 4);
+    /*height: 300px;*/
+    padding: 7px;
+}
+.gallery .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.gallery .image:hover img{
+    transform: scale(1.1);
+}
+.gallery .image.hide{
+    display: none;
+}
+.gallery .image.show{
+    animation: animate 0.4s ease;
+}
+@keyframes animate {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.preview-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    padding: 0 5px 5px 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+.preview-box.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.3s ease;
+}
+.preview-box .details{
+    padding: 13px 15px 13px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details .title{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+}
+.details .title p{
+    font-weight: 500;
+    margin-left: 5px;
+}
+.details .icon{
+    color: #007bff;
+    font-size: 22px;
+    cursor: pointer;
+}
+.preview-box .image-box{
+    width: 100%;
+    display: flex;
+}
+.image-box img{
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+}
+.shadow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: none;
+    background: rgba(0,0,0,0.4);
+}
+.shadow.show{
+    display: block;
+}
+@media (max-width: 1000px){
+    .gallery .image{
+        width: calc(100% / 3);
+    }
+}
+@media (max-width: 800px){
+    .gallery .image{
+        width: calc(100% / 2);
+    }
+}
+@media (max-width: 700px){
+    .wrapper nav .items{
+        max-width: 600px;
+    }
+    nav .items span{
+        padding: 7px 15px;
+    }
+}
+@media (max-width: 600px){
+    .wrapper{
+        margin: 30px auto;
+    }
+    .wrapper nav .items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav .items span{
+        margin: 5px;
+    }
+    .gallery .image{
+        width: 100%;
+    }
+}
+
+/*-------------------------------------Video-Gallery-------------------------------------*/
+.container3{
+    padding-bottom: 120px;
+}
+.container3 .title2 h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -30px;
+    text-shadow: 0 .3rem 0.5rem, rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+.container3 .video-all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container3 .video-all .video{
+    height: 15rem; width: 16rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem;
+}
+.container3 .video-all .video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.container3 .video-all .video video:hover{
+    transition: 0.2s linear;
+    transform: scale(1.3);
+}
+.container3 .video-all .video .active{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    height: 85%; width: 80%;
+    box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.container3 .video-all .video .active:hover{
+    transition: none;
+    transform: scale(1) translate(-50%, -50%);
+}
+
+
+/*-------------------------------------Footer--------------------------------------------*/
+
 footer{
     position: relative;
     background: #24252a;
@@ -377,9 +812,8 @@ footer .bottom-details .bottom_text{
     }
 }
 
-/*-------sign in / sign up code --------*/
+/*-------------------------------------sign in / sign up-------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 .sign{
     height: 100vh;
     display: flex;
